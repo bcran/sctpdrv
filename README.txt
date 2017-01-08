@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 Copyright (C) 2008 by CO-CONV, Corp., Kyoto, Japan.
-Copyright (C) 2010-2013 Bruce Cran.
+Copyright (C) 2010-2013 Rebecca Cran.
 
 Developed by co-research between CO-CONV, Corp. and WIDE Project.
 --------------------------------------------------------------------------------

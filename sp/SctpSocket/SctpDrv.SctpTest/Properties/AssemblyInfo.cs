@@ -8,9 +8,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("SctpDrv.SctpTest")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Bruce Cran")]
+[assembly: AssemblyCompany("Rebecca Cran")]
 [assembly: AssemblyProduct("SctpDrv.SctpTest")]
-[assembly: AssemblyCopyright("Copyright © 2010 Bruce Cran")]
+[assembly: AssemblyCopyright("Copyright © 2010 Rebecca Cran")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

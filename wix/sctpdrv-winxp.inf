@@ -1,21 +1,21 @@
 ; SctpDrv driver setup file
-; Copyright (c) 2010-2013 Bruce Cran
+; Copyright (c) 2010-2013 Rebecca Cran
 
 [Version]
 Signature      = "$WINDOWS NT$"
 Class          = NetTrans
 ClassGUID      = {4D36E975-E325-11CE-BFC1-08002BE10318}
-Provider       = %BruceCran%
+Provider       = %RebeccaCran%
 DriverVer      = 01/05/2012,13.1.0
 DriverPackageType        = KernelService
 DriverPackageDisplayName = %SctpDesc%
 CatalogFile    = sctpdrv.cat
 
 [Manufacturer]
-%BruceCran%      = SctpDrv,NTx86
+%RebeccaCran%      = SctpDrv,NTx86
 
 [SctpDrv.NTx86]
-%SctpDesc%     = DefaultInstall, BruceCran_SctpDrv
+%SctpDesc%     = DefaultInstall, RebeccaCran_SctpDrv
 
 [DestinationDirs]
 DefaultDestDir = 11
@@ -55,6 +55,6 @@ DelFiles       = Sctp.DriverFile
 DelService     = sctpdrv,0x200
 
 [Strings]
-BruceCran      = "Bruce Cran"
+RebeccaCran    = Rebecca Cran"
 SctpDesc       = "SCTP Driver"
 Disk1          = "sctpdrv source media"

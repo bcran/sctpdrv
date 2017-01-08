@@ -64,9 +64,4 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		AMDCaProjectFile = C:\Users\Bruce\Documents\sctpDrv\sp\SctpSocket\CodeAnalyst\SctpSocket.caw
-		AMDCaPersistentStartup = ConsoleApplication1
-		AMDCaPersistentConfig = Debug|Mixed Platforms
-	EndGlobalSection
 EndGlobal

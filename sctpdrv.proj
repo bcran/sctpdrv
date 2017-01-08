@@ -124,7 +124,7 @@
     <CallTarget Targets="CopyDriverFiles"/>
     <Move SourceFiles="stage\xp_x86\sctpdrv-winxp.inf" DestinationFiles="stage\xp_x86\sctpdrv.inf"/>
     <Exec Command="$(WDK) x86 wxp no_oacr &amp;&amp; CD /D $(ProjectRoot) &amp;&amp; inf2cat /driver:$(ProjectRoot)\stage\xp_x86 /os:XP_X86,Server2003_X86"/>
-    <Exec Condition=" '$(RELEASE_SIGN)' != '' " Command="signtool sign /ac drv\MSCV-GlobalSign.cer /d &quot;SctpDrv&quot; /s my /n &quot;Bruce Cran&quot; $(Timestamp) $(ProjectRoot)\stage\xp_x86\sctpdrv.cat $(ProjectRoot)\stage\xp_x86\sctpdrv.sys"/>
+    <Exec Condition=" '$(RELEASE_SIGN)' != '' " Command="signtool sign /ac drv\MSCV-GlobalSign.cer /d &quot;SctpDrv&quot; /s my /n &quot;Rebecca Cran&quot; $(Timestamp) $(ProjectRoot)\stage\xp_x86\sctpdrv.cat $(ProjectRoot)\stage\xp_x86\sctpdrv.sys"/>
   </Target>
 
   <Target Name="vista32">
@@ -137,7 +137,7 @@
     <CallTarget Targets="SetDriverFiles"/>
     <CallTarget Targets="CopyDriverFiles"/>
     <Exec Command="$(WDK) x86 wlh no_oacr &amp;&amp; CD /D $(ProjectRoot) &amp;&amp; inf2cat /driver:$(ProjectRoot)\stage\vista_x86 /os:Vista_X86,Server2008_X86,7_X86"/>
-    <Exec Condition=" '$(RELEASE_SIGN)' != '' " Command="signtool sign /ac drv\MSCV-GlobalSign.cer /d &quot;SctpDrv&quot; /s my /n &quot;Bruce Cran&quot; $(Timestamp) $(ProjectRoot)\stage\vista_x86\sctpdrv.cat $(ProjectRoot)\stage\vista_x86\sctpdrv.sys"/>
+    <Exec Condition=" '$(RELEASE_SIGN)' != '' " Command="signtool sign /ac drv\MSCV-GlobalSign.cer /d &quot;SctpDrv&quot; /s my /n &quot;Rebecca Cran&quot; $(Timestamp) $(ProjectRoot)\stage\vista_x86\sctpdrv.cat $(ProjectRoot)\stage\vista_x86\sctpdrv.sys"/>
   </Target>
 
   <Target Name="vista64">
@@ -148,7 +148,7 @@
     <CallTarget Targets="SetDriverFiles"/>
     <CallTarget Targets="CopyDriverFiles"/>
     <Exec Command="$(WDK) x64 wlh no_oacr &amp;&amp; CD /D $(ProjectRoot) &amp;&amp; inf2cat /driver:$(ProjectRoot)\stage\vista_amd64 /os:Vista_X64,Server2008_X64,7_X64,Server2008R2_X64"/>
-    <Exec Condition=" '$(RELEASE_SIGN)' != '' " Command="signtool sign /ac drv\MSCV-GlobalSign.cer /d &quot;SctpDrv&quot; /s my /n &quot;Bruce Cran&quot; $(Timestamp) $(ProjectRoot)\stage\vista_amd64\sctpdrv.cat $(ProjectRoot)\stage\vista_amd64\sctpdrv.sys"/>
+    <Exec Condition=" '$(RELEASE_SIGN)' != '' " Command="signtool sign /ac drv\MSCV-GlobalSign.cer /d &quot;SctpDrv&quot; /s my /n &quot;Rebecca Cran&quot; $(Timestamp) $(ProjectRoot)\stage\vista_amd64\sctpdrv.cat $(ProjectRoot)\stage\vista_amd64\sctpdrv.sys"/>
   </Target>
 
   <Target Name="en_installer" DependsOnTargets="ReadVersion">

@@ -1,6 +1,6 @@
 --------------------------------------------------------------------------------
 Copyright (C) 2008 by CO-CONV, Corp., Kyoto, Japan.
-Copyright (C) 2010-2013 Bruce Cran.
+Copyright (C) 2010-2013 Rebecca Cran.
 
 Developed by co-research between CO-CONV, Corp. and WIDE Project.
 --------------------------------------------------------------------------------
@@ -96,7 +96,7 @@ You can access the SctpDrv source code under the modified BSD license.
 	The Bug Tracker is available on BitBucket:
 		https://bitbucket.org/brucec/sctpdrv/issues
 
-If you encounter a trouble with SctpDrv, please contact Bruce Cran at sctpdrv@bluestop.org
+If you encounter a trouble with SctpDrv, please contact Rebecca Cran at sctpdrv@bluestop.org
 
 --------------------------------------------------------------------------------
 

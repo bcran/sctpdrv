@@ -43,7 +43,7 @@
 #define VER_FILEOS                  VOS_NT_WINDOWS32
 #define VER_FILEFLAGS               (VER_PRERELEASE|VER_DEBUG)
 
-#define VER_COMPANYNAME_STR         "Bruce Cran"
+#define VER_COMPANYNAME_STR         "Rebecca Cran"
 
 /*-----------------------------------------------*/
 /* the following lines are specific to this file */

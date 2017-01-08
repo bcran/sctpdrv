@@ -1,6 +1,6 @@
 /*
  * Copyright (c) 2008 CO-CONV, Corp.
- * Copyright (C) 2010 Bruce Cran.
+ * Copyright (C) 2010 Rebecca Cran.
  * All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
